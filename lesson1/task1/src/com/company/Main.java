@@ -1,3 +1,5 @@
+/* *Main.java * *Version 1.0 * *25.06.2021 * *No copyright presented*/
+
 package com.company;
 
 import java.util.Scanner;
@@ -17,5 +19,6 @@ public class Main{
 	 view.printSecondOutput();
 	 String secondInput = scanner.next();
 	 controller.validateWorld(secondInput);
+	 System.out.println(firstInput + " " + secondInput);
     }
 }

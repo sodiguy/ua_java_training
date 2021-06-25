@@ -1,3 +1,4 @@
+/* *View.java * *Version 1.0 * *25.06.2021 * *No copyright presented*/
 package com.company;
 
 public class View {

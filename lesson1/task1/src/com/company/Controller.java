@@ -1,15 +1,13 @@
+/* *Controller.java * *Version 1.0 * *25.06.2021 * *No copyright presented*/
 package com.company;
-
-import com.sun.tools.javac.Main;
 
 public class Controller{
     private final String hello = "Hello";
     private final String world = "world!";
 
     public void validateHello(String userFirstInput){
-        while(userFirstInput.equals(hello)!=true){
+        if(userFirstInput.equals(hello)!=true){
             System.out.println("Sorry, wrong input! Please try again");
-
         }
     }
     public void validateWorld(String userSecondInput){
